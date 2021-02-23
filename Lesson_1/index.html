@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {# title網頁名稱 #}
+    <title>Document</title>
+    
+
+    <style>
+        /* 基本css撰寫區 */
+    </style>
+    
+    {# 外遷css href="輸入絕對位置"#}
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    {# 基本HTML撰寫區 #}
+
+
+    <script>
+        // 基本JavaScript撰寫區
+    </script>
+
+    {# 外遷js src="輸入絕對位置"#}
+    <script src=""></script>
+</body>
+</html>
+
+{#
+過往js會寫在<head>裡面但
+瀏覽器讀取程式碼是由上而下,
+
+js會操作到body內標籤(dom元素),
+所以會導致瀏覽器產生js讀取時body內dom還未讀取產生錯誤
+
+#}
