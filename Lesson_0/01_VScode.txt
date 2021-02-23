@@ -1,0 +1,11 @@
+##官方載
+    https://code.visualstudio.com/
+
+##網頁切版安裝套件
+    #左邊圖EXTENSIONS
+        #搜索
+            HTML5
+            CSS3
+            Live Server
+            Beautify
+            Material icon
