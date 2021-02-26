@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .box{
+            width: 100px;
+            background-color: yellow;
+            position: relative;
+            left: 200px;
+            top: 100px;
+        }
+        .box_2{
+            width: 100px;
+            background-color: green;
+            position: absolute;
+            left: 250px;
+            top: 200px;
+        }
+        .box_3 {
+            width: 400px;
+            height: 400px;
+            background-color: blue;
+            position: relative;
+            top: 300px;
+        }
+    </style>
+</head>
+<body>
+    定位position:relative,absolute
+    <div class="box">relative跟著視窗走</div>
+    <div class="box_2">當absolute沒有父層relative時會把視窗當父層</div>
+    <div class="box_3">
+        我是爸爸
+        <div class="box_2">跟著爸爸走</div>
+    </div>
+</body>
+</html>
