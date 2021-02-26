@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display_inline-block</title>
+    <style>
+        .box {
+            background-color: aqua;
+        }
+        .box_2 {
+            background-color: brown;
+            display: inline-block;
+        }
+        .d-none {
+            display: none;
+        }
+        .d-block {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">正常狀況下</div>
+    <div class="box_2">inline-block後變成區塊</div>
+    <hr>
+    <div class="d-none">你看不到我</div>
+    <div class="d-block">你看得到我</div>
+</body>
+</html>
