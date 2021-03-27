@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>切版小練習</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        /* 最外面 */
+        .container {
+            width: 600px;
+            height: 800px;
+            background-color: black;
+            padding: 10px;
+            margin: 0 auto;
+        }
+        /* 上面 */
+        .container_top {
+            width: 100%;
+            height: calc(35% - 10px);
+            background-color: red;
+            margin-bottom: 10px;
+        }
+        /* 中間 */
+        .container_mid {
+            width: 100%;
+            height: 30%;
+            background-color: orange;
+            display: flex;
+        }
+        .mid_l {
+            width: 30%;
+            height: 100%;
+            background-color: green;
+            margin-right: 10px;
+        }
+        .mid_r {
+            width: calc(70% - 10px);
+            height: 100%;
+            background-color: blue;
+        }
+        .mid_r_t {
+            width: 100%;
+            height: calc(35% - 10px);
+            background-color: indigo;
+            margin-bottom: 10px;
+        }
+        .mid_r_m {
+            width: 100%;
+            height: 30%;
+            background-color: hotpink;
+        }
+        .mid_r_b {
+            width: 100%;
+            height: calc(35% - 10px);
+            background-color: red;
+            margin-top: 10px;
+        }
+        /* 下面 */
+        .container_bootom {
+            width: 100%;
+            height: calc(35% - 10px);
+            background-color: yellow;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container_top"></div>
+        <div class="container_mid">
+            <div class="mid_l"></div>
+            <div class="mid_r">
+                <div class="mid_r_t"></div>
+                <div class="mid_r_m"></div>
+                <div class="mid_r_b"></div>
+            </div>
+        </div>
+        <div class="container_bootom"></div>
+    </div>
+</body>
+</html>
