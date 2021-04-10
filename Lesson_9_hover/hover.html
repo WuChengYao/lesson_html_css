@@ -20,6 +20,7 @@
             width: 500px;
             height: 500px;
         }
+        /* CSS transition 過場秒數 */
         .transition{
             width: 300px;
             height: 300px;
@@ -30,6 +31,7 @@
         .transition:hover{
             border-radius: 50%;
         }
+        /* 滑鼠事件hover觸發別人變化 */
         .aa{
             width: 100%;
             background-color: red;
@@ -42,9 +44,11 @@
             position: relative;
             left: 10px;
         }
+        /* aa滑鼠移到bb產生變化 */
         .aa:hover .bb{
             left: 400px;
         }
+
         .menus{
             display: none;
         }
@@ -56,6 +60,7 @@
 <body>
     <div class="box"></div>
     <div class="transition"></div>
+    <hr>
     <div class="aa">
         <div class="bb"></div>
     </div>
