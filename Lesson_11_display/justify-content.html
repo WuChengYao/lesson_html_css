@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify-content水平控制</title>
+    <style>
+        .all {
+            width: 100%;
+            background-color: black;
+            display: flex;
+            /* 均分space-around左右有邊 */
+            justify-content: space-around;
+            /* 均分space-around左右無邊 */
+            /* justify-content: space-between; */
+            /* 水平置中center */
+            /* justify-content: center; */
+        }
+        .abc {
+            width: 200px;
+            height: 25vh;
+            background-color: greenyellow;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="abc"></div>
+        <div class="abc"></div>
+        <div class="abc"></div>
+        <div class="abc"></div>
+    </div>
+</body>
+</html>
