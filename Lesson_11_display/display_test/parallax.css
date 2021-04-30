@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+/* croll-behavior 讓畫面產生滾動效果 */
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* position: fixed 把區塊永久釘在畫面某地方 */
+.top{
+    background-color: aqua;
+    padding: 20px;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+}
+
+/* box_1 */
+.box_1 {
+    background-image: url('s1.jpeg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_1 p {
+    background-color: #666;
+    padding: 15px 10px;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+/* box_2 */
+.box_2 {
+    background-image: url('s2.jpeg');
+    /* ox-shadow區塊陰影 */
+    box-shadow: 0px -2px 3px #000;
+}
+.box_2_1 {
+    width: 100%;
+    height: 50%;
+}
+.box_2_1_t {
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+.box_2_1_t .content {
+    text-align: left;
+}
+.box_2_1_b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+    /* text-shadow文字陰影 */
+    text-shadow: 1px 1px 1px #000;
+}
+
+/* box_3 */
+.box_3 {
+    background-image: url('s3.jpeg');
+}
+.box_3_all {
+    width: 100%;
+    height: calc(100vh / 3);
+    color: #fff;
+}
+.box_3_1,.box_3_3{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.box_3_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
