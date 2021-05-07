@@ -1,11 +1,11 @@
 # 常用style
 ----
 ###  背景
-    background-color: #666;             /* 背景顏色 除了RGB也能RGBA */[bg-color參考網址](https://developer.mozilla.org/zh-TW/docs/Web/CSS/background-color)
-    
+    background-color: #666;             /* 背景顏色 除了RGB也能RGBA */
+[bg-color參考網址](https://developer.mozilla.org/zh-TW/docs/Web/CSS/background-color)
     ==========
     background-image: url('圖片路徑');   /* 背景圖片 */
-    [bg-image參考網址](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-image)
+[bg-image參考網址](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-image)
     ==========
     background-size: cover;             /* 背景圖片大小 */
     [bg-size參考網址](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-size)
